@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/contraint1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="414dp"
+            android:layout_height="53dp"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView10"
+            style="@style/header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DIZON-Q1" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="50dp"
+            android:background="@color/colorPrimaryDark"
+            app:cardBackgroundColor="#BED9DB">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="56dp"
+                android:layout_marginLeft="285dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="90dp"
+                tools:srcCompat="@drawable/nitro" />
+
+            <TextView
+                android:id="@+id/textView1"
+                style="@style/btext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="13dp"
+                android:text="Nitro" />
+
+            <TextView
+                android:id="@+id/textView2"
+                style="@style/btext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="30dp"
+                android:text="In-game leader" />
+
+            <TextView
+                android:id="@+id/textView3"
+                style="@style/btext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="65dp"
+                android:layout_marginRight="10dp"
+                android:text="Nicholas nitr0 Cannella (born August 16, 1995) is an American Counter-Strike: Global Offensive and former Counter-Strike 1.6 player. He currently plays for Team Liquid as the in-game leader." />
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="50dp"
+            app:cardBackgroundColor="#BED9DB">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="56dp"
+                android:layout_marginLeft="285dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="90dp"
+                tools:srcCompat="@drawable/stewie" />
+
+            <TextView
+                android:id="@+id/textView4"
+                style="@style/btext"
+                android:layout_width="wrap_content"
+                android:layout_height="29dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="13dp"
+                android:text="Stewie2k" />
+
+            <TextView
+                android:id="@+id/textView5"
+                style="@style/btext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="40dp"
+                android:text="Entry Fragger" />
+
+            <TextView
+                android:id="@+id/textView6"
+                style="@style/btext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="65dp"
+                android:layout_marginRight="10dp"
+                android:text="Jacky 'Jake' Stewie2K Yip (born January 7, 1998) is an American professional Counter-Strike: Global Offensive player. He currently plays for Team Liquid. He is widely regarded as one of the best players in North America, despite having only played CS:GO since the summer of 2014." />
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            app:cardBackgroundColor="#BED9DB">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="56dp"
+                android:layout_marginLeft="285dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="90dp"
+                tools:srcCompat="@drawable/twitst" />
+
+            <TextView
+                android:id="@+id/textView7"
+                style="@style/btext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="13dp"
+                android:text="Twistzz" />
+
+            <TextView
+                android:id="@+id/textView8"
+                style="@style/btext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="30dp"
+                android:text="Rifler" />
+
+            <TextView
+                android:id="@+id/textView9"
+                style="@style/btext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="65dp"
+                android:layout_marginRight="10dp"
+                android:text="Russel Twistzz Van Dulken (born November 14, 1999) is a Canadian professional Counter-Strike: Global Offensive player who currently plays for Team Liquid." />
+
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
